@@ -1,0 +1,26 @@
+{
+    "name": "가대클립",
+    "description": "가톨릭대학교 재학생들을 위한 필수 웹사이트 모음",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "/script/background.js"
+      },
+      "permissions": ["storage", "activeTab", "scripting"],
+      "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/catclip.png",
+            "32": "/images/catclip.png",
+            "48": "/images/catclip.png",
+            "128": "/images/catclip.png"
+          }
+      },
+      "icons": {
+        "16": "/images/catclip.png",
+        "32": "/images/catclip.png",
+        "48": "/images/catclip.png",
+        "128": "/images/catclip.png"
+      },
+      "options_page": "options.html"
+  }
