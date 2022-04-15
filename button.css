@@ -80,6 +80,15 @@ margin: 0 15px;
 
 .schedule-wrap article {
     font-size: 13px;
+    display: flex;
+}
+
+.schedule-wrap article ul {
+    list-style: none;
+    padding: 0;
+}
+.schedule-wrap article ul li {
+    line-height: 20px;
 }
 
 .top-wrap {
@@ -95,7 +104,7 @@ margin: 0 15px;
 footer {
     display: flex;
     height: 50px;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
     font-size: 10px;
     align-items: flex-end;
     justify-content: center;
