@@ -5,7 +5,7 @@ body {
     outline: none;
     border: none;
     border-radius: 2px;
-  }
+}
 
 header {
     display: flex;
@@ -19,7 +19,7 @@ header {
 }
 
 header span {
-margin: 0 15px;
+    margin: 0 15px;
 }
 
 .icon-wrap {
@@ -35,6 +35,7 @@ margin: 0 15px;
 .icon-wrap ul li {
     list-style: none;
 }
+
 .icon-wrap ul li a {
     display: flex;
     flex-direction: column;
@@ -46,14 +47,21 @@ margin: 0 15px;
     width: 60px;
     height: 70px;
     margin: 8px;
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;       
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     border-radius: 10px;
     padding: 10px;
 }
-.icon-wrap ul li a img {
+
+.icon-wrap ul li a .icon_wrap {
     width: 40px;
     height: 40px;
     margin-bottom: 10px;
+}
+
+.icon-wrap ul li a img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .icon-wrap ul li a span {
@@ -63,7 +71,7 @@ margin: 0 15px;
 }
 
 .schedule-wrap {
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;       
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     border-radius: 10px;
     padding: 16px 16px 0 16px;
     margin: 16px;
@@ -71,11 +79,6 @@ margin: 0 15px;
 
 .schedule-wrap p {
     display: inline-block;
-}
-
-.schedule-wrap p:first-child {
-    padding-right: 30px;
-    font-weight: bold;
 }
 
 .schedule-wrap article {
@@ -87,8 +90,14 @@ margin: 0 15px;
     list-style: none;
     padding: 0;
 }
+
 .schedule-wrap article ul li {
     line-height: 20px;
+}
+
+.schedule-detail li span {
+    padding-right: 20px;
+    font-weight: bold;
 }
 
 .top-wrap {
